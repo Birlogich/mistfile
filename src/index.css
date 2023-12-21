@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@400;600;700;800&family=Poppins:wght@400;600;700&Inter:wght@400;500;600&family=Ubuntu:wght@300;400;700&display=swap');
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy/Gilroy-Medium.woff2') format('woff2'),
+      url('./assets/fonts/Gilroy/Gilroy-Medium.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy/Gilroy-Medium.woff2') format('woff2'),
+      url('./assets/fonts/Gilroy/Gilroy-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy/Gilroy-Bold.woff2') format('woff2'),
+      url('./assets/fonts/Gilroy/Gilroy-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+:root {
+  /* Typography */
+  --family-gilroy: 'Gilroy', sans-serif;
+  --family-poppins: 'Poppins', sans-serif;
+  --family-manrope: 'Manrope', sans-serif;
+  --family-inter: 'Inter', sans-serif;
+  --family-ubuntu: 'Ubuntu', sans-serif;
+  --fs-sm: 10px;
+  --fs-md: 14px;
+  --fs-mdbig: 16px;
+  --fs-lg: 32px;
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-semi-bold: 700;
+  --fw-bold: 800;
+
+  /* Other */
+  --radii: 0.5rem;
+
+  /*Text Colors*/
+  --ordinary-text: #FFFFFF;
+  --blue-text: #1890FF;
+  --grey-text: #A0ACC9; 
+  --black-text: #000000; 
+
+}
+
+body {
+  color: var(--ordinary-text);
+  font-family: var(--family-gilroy);
+  font-size: var( --fs-md);
+  font-weight: var(--fw-normal);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

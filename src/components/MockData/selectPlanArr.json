@@ -1,0 +1,15 @@
+[
+   {
+     "plan": "Everyone",
+     "description":
+       "This is a individual license, only for one person. Useable for business purposes. No API Access.",
+     "price": "$5",
+     "id": 1
+   },
+   {
+     "plan": "Developer",
+     "description": "Usable with up to 25 people. Useable for business purposes. No API Access.",
+     "price": "$2.5",
+     "id": 2
+   }
+]

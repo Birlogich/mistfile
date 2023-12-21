@@ -1,0 +1,39 @@
+{ 
+   "barsData" : [
+   {
+     "name": "AFILENAME",
+     "coefficientAmount": 1,
+     "coefficientHeight": 1,
+     "backgroundColor": "#606060",
+     "id": 1
+   },
+   {
+     "name": "Backblaze",
+     "coefficientAmount": 8,
+     "coefficientHeight": 2.4,
+     "backgroundColor": "#F24822",
+     "id": 2
+   },
+   {
+     "name": "Azure",
+     "coefficientAmount": 44.8,
+     "coefficientHeight": 5.36,
+     "backgroundColor": "#1890FF",
+     "id": 3
+   },
+   {
+     "name": "Google",
+     "coefficientAmount": 56,
+     "coefficientHeight": 8.29,
+     "backgroundColor": "#FFCD29",
+     "id": 4
+   },
+   {
+     "name": "AWS",
+     "coefficientAmount": 53,
+     "coefficientHeight": 8.09,
+     "backgroundColor": "#272727",
+     "id": 5
+   }
+ ]
+}
